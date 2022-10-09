@@ -1,0 +1,103 @@
+.center{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  margin: 0 auto;
+  height: 100vh; 
+}
+
+input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+select {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Animation property */
+img {
+  animation: wiggle 2s linear infinite;
+  position:static;
+ 
+  
+  height: 6em;
+  width: 10em;
+  
+  background: #444;
+  background: linear-gradient(top, #555, #333);
+  border: none;
+  border-top: 3px solid orange;
+  border-radius: 0 0 0.2em 0.2em;
+  color: #fff;
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1em;
+  transform-origin: 50% 5em;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+body {
+  background: rgb(104, 99, 243);
+  background-image:url("./images/img3.webp");
+  background-size: cover;
+}
+
+input{
+  margin-left: 50px;
+  cursor: pointer;
+  position: absolute;
+  padding: auto;
+  height: 2em;
+  width: 5em;
+  
+  background: rgb(61, 21, 164);
+  background: linear-gradient(top, #555, #333);
+  border: none;
+  border-top: 3px solid orange;
+  border-radius: 0 0 0.2em 0.2em;
+  color: #fff;
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1em;
+  transform-origin: 50% 5em;
+}
+
+.quo{
+  size: 3cm;
+  color: white;
+  position: absolute;
+  margin: 20px;
+}

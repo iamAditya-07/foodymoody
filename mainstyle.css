@@ -1,0 +1,83 @@
+.box{
+    padding: 10px 10px;
+    display: flex;
+   
+    
+}
+.center{
+    text-align: center;
+    border: 5px solid rgb(225, 31, 60);
+    border-radius: 30px;
+    align-items: center;
+  justify-content: center;
+  margin: 50px;
+  background-color: rgb(203, 14, 14);
+
+  
+}
+
+.btn{
+   
+    width: 100px;
+    border: 2px solid red;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color:chocolate;
+}
+
+/*.btn :hover{
+    background-color: blue;
+    
+}*/
+
+
+.image{
+    height: 200px;
+    width: 200px;
+}
+
+h2,pre{
+    color: white;
+}
+
+body{
+
+animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-direction: reverse;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  body{
+    background: linear-gradient(90deg, #009FFF 50%, #21d58a 50%);
+  }
+
+  
+  
+  h1{
+    font-family:cursive;
+    animation-duration: 3s;
+    animation-name: slidein;
+    color: rgb(247, 246, 247);
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
